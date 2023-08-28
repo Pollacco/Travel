@@ -1,3 +1,10 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+  box-sizing: border-box;
+}
+
 h1 {
   margin: 0;
   padding: 0;
@@ -10,6 +17,15 @@ h1 {
   white-space: pre;
 }
 
+h2 {
+  color: #FFF;
+  font-family: Aleo;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -18,7 +34,8 @@ ul {
 
 li  {  
   margin: 0;
-  padding: 0;}
+  padding: 0;
+}
 
 a {
   text-decoration: none; 
@@ -26,13 +43,14 @@ a {
 
 header {
   width: 100%;
+  background-color: #F2785C;
+  opacity: 70%;
 }
 
 .header_wrapper{
   margin: 0 auto;
   max-width: 1440px;
-  background-color: #F2785C;
-  opacity: 70%;
+
 }
 
 .header_flex {
@@ -83,3 +101,65 @@ header {
   background: #0D606F;
   box-shadow: 0px 2px 3px 0px rgba(13, 96, 111, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
+
+.preview {
+  background-color: #ccc;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.preview_wrapper {
+  margin: 32px 428px 221px 120px;
+  width: 892px;
+  height: 422px;
+}
+
+.preview_title {
+  color: #FFF;
+  font-family: Aleo;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.preview_description{
+  color: #FFF;
+  font-family: Aleo;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.preview_input {
+  width: 892px;
+  height: 95px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.70);
+}
+
+.preview_button {
+  color: #FFF;
+  font-family: Red Hat Text;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 10px 32px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: #0D606F;
+  box-shadow: 0px 2px 3px 0px rgba(13, 96, 111, 0.16), 0px 0px 3px 0px rgba(13, 96, 111, 0.08);
+}
+
+.preview_input_description {
+  color: #F2785C;
+  font-family: Aleo;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}
+
