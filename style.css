@@ -124,6 +124,8 @@ header {
 }
 
 .preview_description{
+  margin-top: 46px;
+  margin-bottom: 46px;
   color: #FFF;
   font-family: Aleo;
   font-size: 20px;
@@ -133,6 +135,7 @@ header {
 }
 
 .preview_input {
+  padding-top: 18px;
   width: 892px;
   height: 95px;
   border-radius: 16px;
@@ -140,13 +143,14 @@ header {
 }
 
 .preview_button {
+  margin-left: 310px;
   color: #FFF;
   font-family: Red Hat Text;
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  padding: 10px 32px;
+  padding: 14px 32px;
   justify-content: center;
   align-items: center;
   border-radius: 10px;
@@ -155,6 +159,7 @@ header {
 }
 
 .preview_input_description {
+  margin-left: 41px;
   color: #F2785C;
   font-family: Aleo;
   font-size: 24px;
