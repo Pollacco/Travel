@@ -1,0 +1,85 @@
+h1 {
+  margin: 0;
+  padding: 0;
+  color: #FFF;
+  font-family: Magra;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  white-space: pre;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+li  {  
+  margin: 0;
+  padding: 0;}
+
+a {
+  text-decoration: none; 
+}
+
+header {
+  width: 100%;
+}
+
+.header_wrapper{
+  margin: 0 auto;
+  max-width: 1440px;
+  background-color: #F2785C;
+  opacity: 70%;
+}
+
+.header_flex {
+  padding: 25px 120px 25px;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo img {
+  margin-right: 6px;
+}
+
+.header_navigation {
+  width: 527px;
+  margin-top: 10px;
+  justify-content: space-between;  
+}
+
+.header_navigation_list {
+  display: flex;
+  justify-content: space-between;  
+}
+
+.header_navigation_link {
+  color: #FFF;
+  font-family: Red Hat Text;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.header_buton {
+  color: #FFF;
+  font-family: Red Hat Text;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  max-width: 103px;
+  padding: 10px 30px;
+  border-radius: 10px;
+  background: #0D606F;
+  box-shadow: 0px 2px 3px 0px rgba(13, 96, 111, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
