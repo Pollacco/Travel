@@ -2,7 +2,6 @@
 	padding: 0px;
 	margin: 0px;
 	border: none;
-  box-sizing: border-box;
 }
 
 h1 {
@@ -42,6 +41,9 @@ a {
 }
 
 header {
+  background: url(../Travel/assets/images/HeaderBG.png);
+  background-position: center top;
+  background-repeat: no-repeat;
   width: 100%;
   background-color: #F2785C;
   opacity: 70%;
@@ -50,7 +52,6 @@ header {
 .header_wrapper{
   margin: 0 auto;
   max-width: 1440px;
-
 }
 
 .header_flex {
@@ -103,13 +104,15 @@ header {
 }
 
 .preview {
-  background-color: #ccc;
   margin: 0 auto;
   max-width: 1440px;
+  background: url(../Travel/assets/images/HeaderBG.png);
+  background-position: center -91px;
+  background-repeat: no-repeat;
 }
 
 .preview_wrapper {
-  margin: 32px 428px 221px 120px;
+  padding: 32px 428px 221px 120px;
   width: 892px;
   height: 422px;
 }
