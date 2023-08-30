@@ -1,7 +1,7 @@
 * {
-	padding: 0px;
-	margin: 0px;
-	border: none;
+  padding: 0px;
+  margin: 0px;
+  border: none;
   box-sizing: border-box;
 }
 
@@ -41,26 +41,26 @@ ul {
   list-style-type: none;
 }
 
-li  {  
+li {
   margin: 0;
   padding: 0;
 }
 
 a {
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 header {
-  background: rgba(242, 120, 92, 0.70);
-  box-shadow: 0px 4px 4px 0px rgba(13, 96, 111, 0.50);
+  background: rgba(242, 120, 92, 0.7);
+  box-shadow: 0px 4px 4px 0px rgba(13, 96, 111, 0.5);
   width: 100%;
   opacity: 70%;
 }
 
-.header_wrapper{
+.header_wrapper {
   margin: 0 auto;
   max-width: 1440px;
-  background: url(../Travel/assets/images/HeaderBG.png);
+  background: url(../assets/images/HeaderBG.png);
   background-position: center top;
   background-repeat: no-repeat;
 }
@@ -83,12 +83,12 @@ header {
 .header_navigation {
   width: 527px;
   margin-top: 10px;
-  justify-content: space-between;  
+  justify-content: space-between;
 }
 
 .header_navigation_list {
   display: flex;
-  justify-content: space-between;  
+  justify-content: space-between;
 }
 
 .header_navigation_link {
@@ -117,7 +117,7 @@ header {
 .preview {
   margin: 0 auto;
   max-width: 1440px;
-  background: url(../Travel/assets/images/HeaderBG.png);
+  background: url(../assets/images/HeaderBG.png);
   background-position: center -91px;
   background-repeat: no-repeat;
 }
@@ -136,7 +136,7 @@ header {
   width: 892px;
 }
 
-.preview_description{
+.preview_description {
   margin-top: 46px;
   margin-bottom: 46px;
   color: #FFF;
@@ -153,7 +153,7 @@ header {
   width: 892px;
   height: 95px;
   border-radius: 16px;
-  background: rgba(255, 255, 255, 0.70);
+  background: rgba(255, 255, 255, 0.7);
 }
 
 .preview_button {
@@ -260,3 +260,5 @@ header {
   margin-left: -780px;
   z-index: 5;
 }
+
+/*# sourceMappingURL=style.css.map */
