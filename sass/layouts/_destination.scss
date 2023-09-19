@@ -1,0 +1,46 @@
+
+.destination {
+    margin: 0 auto;
+    max-width: 1440px;
+  }
+  
+  .destination_title {
+    text-align: center;
+  }
+  
+  .destination_wrapper {
+    position: relative;
+  }
+  
+  .slider_item {
+    width: 800px;
+    height: 800px;
+    position: relative;
+    border-radius: 16px;
+    background: #FFF;
+  }
+  
+  .slider_item img {
+    border-radius: 16px;
+  }
+  
+  .slider {
+    margin-top: 46px;
+    position: absolute;
+    display: flex;
+    gap: 60px;
+    margin-left: -540px;
+  }
+  
+  .slider_text {
+    position: absolute;
+    color: #FFF;
+    font-family: Red Hat Text;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 750px;
+    margin-left: -780px;
+    z-index: 5;
+  }

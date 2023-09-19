@@ -5,12 +5,21 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: Aleo;
+}
+
 h1 {
   margin: 0;
   padding: 0;
   color: #FFF;
   font-family: Magra;
-  font-size: 32px;
+  font-size: 3.2rem;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
