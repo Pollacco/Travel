@@ -37,6 +37,12 @@ h3 {
   @include font($size:4.0rem, $weight:500);
 }
 
+h4 {
+  color: #0D606F;
+  font-family: Aleo;
+  @include font($size:3.5rem, $weight:400);
+}
+
 ul {
   margin: 0;
   padding: 0;

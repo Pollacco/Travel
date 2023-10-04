@@ -44,6 +44,15 @@ h3 {
   line-height: normal;
 }
 
+h4 {
+  color: #0D606F;
+  font-family: Aleo;
+  font-size: 3.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -185,22 +194,6 @@ header {
   background: rgba(255, 255, 255, 0.7);
 }
 
-.preview_button {
-  margin-left: 310px;
-  color: #FFF;
-  font-family: Red Hat Text;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  padding: 14px 32px;
-  justify-content: center;
-  align-items: center;
-  border-radius: 10px;
-  background: #0D606F;
-  box-shadow: 0px 2px 3px 0px rgba(13, 96, 111, 0.16), 0px 0px 3px 0px rgba(13, 96, 111, 0.08);
-}
-
 .preview_input_description {
   margin-left: 41px;
   color: #F2785C;
@@ -336,6 +329,98 @@ header {
 
 .destination_button span {
   margin-left: 10px;
+}
+
+.stories {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.stories_title {
+  margin-top: 80px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.sories_item_image {
+  background-image: url(/Travel/assets/images/story.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 250px;
+  border-radius: 16px;
+  box-shadow: 0px 4px 4px 0px #0D606F;
+}
+
+.sories_item {
+  display: flex;
+  margin-top: 30px;
+}
+
+.sories_item_description {
+  margin-left: 40px;
+  max-width: 760px;
+}
+
+.story_tem_text {
+  margin-top: 24px;
+  color: #0D606F;
+  font-family: Aleo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.read_more {
+  color: #0D606F;
+  font-family: Aleo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.stories_list .sories_item:nth-child(2) .sories_item_image {
+  background-image: url(/Travel/assets/images/story2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.stories_list .sories_item:nth-child(3) .sories_item_image {
+  background-image: url(/Travel/assets/images/story3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.stories_list .sories_item:nth-child(4) .sories_item_image {
+  background-image: url(/Travel/assets/images/story4.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.stories_button {
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 10px 32px;
+  width: 228px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background: #0D606F;
+  box-shadow: 0px 2px 3px 0px rgba(13, 96, 111, 0.16), 0px 0px 3px 0px rgba(13, 96, 111, 0.08);
+  color: #FFF;
+  font-family: Red Hat Text;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.stories_button:hover {
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */
