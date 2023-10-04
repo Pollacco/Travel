@@ -19,29 +19,20 @@ h1 {
   padding: 0;
   color: #FFF;
   font-family: Magra;
-  font-size: 3.2rem;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
+  @include font($size:3.2rem, $weight:600);
   white-space: pre;
 }
 
 h2 {
   color: #FFF;
   font-family: Aleo;
-  font-size: 80px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
+  @include font($size:8.0rem, $weight:700);
 }
 
 h3 {
   color: #F2785C;
   font-family: Red Hat Text;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
+  @include font($size:4.0rem, $weight:500);
 }
 
 ul {
