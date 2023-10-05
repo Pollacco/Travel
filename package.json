@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Pollacco/Travel/issues"
   },
-  "homepage": "https://github.com/Pollacco/Travel#readme"
+  "homepage": "https://github.com/Pollacco/Travel#readme",
+  "dependencies": {
+    "normalize-scss": "^7.0.1"
+  }
 }

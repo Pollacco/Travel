@@ -1,0 +1,54 @@
+
+.preview {
+    margin: 0 auto;
+    max-width: 1440px;
+    background: url(../assets/images/HeaderBG.png);
+    background-position: center -91px;
+    background-repeat: no-repeat;
+  }
+  
+  .preview_wrapper {
+    padding: 32px 428px 221px 120px;
+  }
+  
+  .preview_title {
+    color: #FFF;
+    font-family: Aleo;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 892px;
+  }
+  
+  .preview_description{
+    margin-top: 46px;
+    margin-bottom: 46px;
+    color: #FFF;
+    font-family: Aleo;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    width: 892px;
+  }
+  
+  .preview_input {
+    padding-top: 18px;
+    width: 892px;
+    height: 95px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.70);
+  }
+  
+ 
+  
+  .preview_input_description {
+    margin-left: 41px;
+    color: #F2785C;
+    font-family: Aleo;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+  }

@@ -1,0 +1,94 @@
+
+.destination {
+    margin: 0 auto;
+    max-width: 1440px;
+    overflow: hidden;
+  }
+  
+  .destination_title {
+    text-align: center;
+  }
+  
+  .destination_wrapper {
+    position: relative;
+  }
+  
+  .slider_item {
+    width: 800px;
+    height: 800px;
+    position: relative;
+    border-radius: 16px;
+    background: #FFF;
+  }
+  
+  .slider_item img {
+    border-radius: 16px;
+  }
+  
+  .slider {
+    margin-top: 46px;
+    position: absolute;
+    display: flex;
+    gap: 60px;
+    margin-left: -540px;
+  }
+  
+  .slider_text {
+    position: absolute;
+    color: #FFF;
+    font-family: Red Hat Text;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 750px;
+    margin-left: -780px;
+    z-index: 5;
+  }
+
+  .slider_navigation {
+    margin: 0 auto;
+    margin-top: 870px;
+    width: 80px;
+  }
+
+  .slider-nav_wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav_dot {
+    width: 20px;
+    height: 20px;
+    background-color: rgba(242, 120, 92, 0.50);
+    border-radius: 50%;
+  }
+
+  .active_dot {
+    background-color: rgba(242, 120, 92);
+  }
+
+  .destination_button {
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 10px 32px;
+    width: 228px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background: #0D606F;
+    box-shadow: 0px 2px 3px 0px rgba(13, 96, 111, 0.16), 0px 0px 3px 0px rgba(13, 96, 111, 0.08);
+    color: #FFF;
+    font-family: Red Hat Text;
+    @include font($size:2.4rem, $weight:500);
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .destination_button span {
+    margin-left: 10px;
+  }
+
+  
