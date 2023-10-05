@@ -1,6 +1,14 @@
 .stories {
     margin: 0 auto;
     max-width: 1440px;
+    background-image: url(/Travel/assets/images/footerbg.png) ;
+    background-position: center 90px;
+    background-repeat: no-repeat;
+  }
+
+  .stories_wrapper {
+    background: rgba(255, 255, 255, 0.70);
+    padding: 0 125px 0 120px;
   }
 
   .stories_title {
@@ -33,7 +41,7 @@
     margin-top: 24px;
     color: #0D606F;
     font-family: Aleo;
-    font-size: 20px;
+    font-size: 1.8rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -47,6 +55,9 @@
     font-weight: 700;
     line-height: normal;
     text-decoration-line: underline;
+    &:hover {
+        cursor: pointer;
+    }
 }
 
 .stories_list .sories_item:nth-child(2) .sories_item_image {
@@ -70,7 +81,6 @@
 .stories_button {
     margin: 0 auto;
     margin-top: 40px;
-    margin-bottom: 40px;
     padding: 10px 32px;
     width: 228px;
     display: flex;
@@ -82,7 +92,19 @@
     color: #FFF;
     font-family: Red Hat Text;
     @include font($size:2.4rem, $weight:500);
+
+    & span {
+        margin-left: 10px;
+    }
+
     &:hover {
       cursor: pointer;
     }
+  }
+
+  .stories_bottom {
+    margin-top: 40px;
+    height: 1px;
+    width: 100%;
+    opacity: 1;
   }

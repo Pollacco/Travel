@@ -1,0 +1,38 @@
+footer {
+    width: 1440px;
+    margin: 0 auto;
+    background-image: url(/Travel/assets/images/footerbg.png) ;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+.footer_wrapper {
+    display: flex;
+
+    align-items: center;
+    justify-content: end;
+}
+
+.copyright {
+    color: #FFF;
+    font-family: Red Hat Text;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 20px 0;
+}
+
+.socials {
+    margin-right: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.socials img:first-child {
+    margin-left: 328px;
+}
+
+.socials img {
+    margin-left: 20px;
+}
